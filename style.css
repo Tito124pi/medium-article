@@ -1,6 +1,6 @@
 body {
   color: #494949;
-  font-size: 184px;
+  font-size: 80px;
   line-height: 1.6;
   font-weight: lighter;
   font-family: "Lora", serif;
@@ -38,8 +38,13 @@ p {
   background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
   color: #636363;
   font-weight: lighter;
-  font-size: 25px;
+  /* font-size: 25px; */
   font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(22, 157, 69), rgba(22, 157, 69));
+
 }
 
 a {
